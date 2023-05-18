@@ -173,7 +173,7 @@ footer{
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-color: brown;
+    background-color: rgba(42, 165, 149, 0.808);
     padding: 10px;
 }
 
@@ -181,6 +181,51 @@ footer p{
     font-size: 12px;
     color: #fff;
     font-weight: 500;
+}
+
+footer form h3{
+    color: #fff;
+    font-weight: 300;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+footer form p{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: 'Poppins', serif;
+}
+
+footer form input:first-child{
+    height: 1cm;
+    width: 250px;
+    outline: none;
+    padding: 0 10px;
+    border: none;
+}
+
+footer form input:last-child{
+    height: 1.08cm;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: .5s;
+    padding: 10px 20px;
+}
+
+footer form input:last-child:hover{
+    background-color: rgb(180, 177, 177);
+}
+
+footer form .note{
+    font-weight: 200;
+    font-family: 'Poppins', serif;
+    color: rgb(212, 211, 211);
 }
 
 footer p a{
@@ -273,11 +318,11 @@ footer #reach-us{
         display: none;
     }
     .header .nav li .dropdown-list{
-        left: 100%;
+        left: 10%;
         top: 0;
         height: fit-content;
         border: 1px solid rgb(42, 124, 110);
-        border-radius: 0 10px 10px 10px;
+        border-radius: 0;
     }
     .dropdown-info{
         top: -280px;
@@ -285,5 +330,24 @@ footer #reach-us{
         padding: 10px;
         background-color: #fff;
         border-radius: 10px 10px 0 10px;
+    }
+
+    footer form h3{
+        font-size: 18px;
+    }
+    
+    footer form p{
+        font-size: 12px;
+    }
+
+    footer form input:first-child{
+        height: .8cm;
+        width: 200px;
+    }
+    
+    footer form input:last-child{
+        height: .85cm;
+        font-size: 12px;
+        padding: 5px 10px;
     }
 }

@@ -39,3 +39,28 @@ body{
     font-size: 12px;
     font-weight: bolder;
 }
+
+@media only screen and (max-width: 800px){
+    
+.method{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.method img{
+    width: 100px;
+    height: 100px;
+}
+
+.method h1{
+    font-size: 12px;
+}
+
+.method p{
+    font-size: 10px;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+}

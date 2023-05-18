@@ -24,7 +24,7 @@
             </li>
             <li class="dropdown" id="drop2"> <a href="#">Activities</a>
                 <ul class="dropdown-list" id="dropdown-list2" >
-                    <li>Prayer Timetable</li>
+                    <li><a href="prayertm.html">Prayer Timetable</a></li>
                 </ul>
             </li>
             <li class="dropdown" id="drop3"><a href="#">Donate</a>
@@ -48,7 +48,6 @@
             <div class="line"></div>
        </div>
        <script>
-        //toggle smartphone navigationbar
             document.getElementById("hamburger").onclick = () =>{
               document.querySelector(".header ul").classList.toggle('shrinked');
             }
@@ -136,14 +135,24 @@
    </div>
 
    <footer id="contacts">
-    <p>Follow us</p>
-    <div id="reach-us">
-        <p><a href="facebook.com"><img src="images/facebook.png"></a></p>
-        <p><a href="twitter.com"><img src="images/twitter.png"></a></p>
-        <p><a href="https://youtube.com/@mumsamaincampus7241"><img src="images/youtube.png"></a></p>
-        <p><a href="mailto:mumsa.main@gmail.com"><img src="images/gmail.png"></a></p>
-    </div>
-    <p>Copywrite&copy;2023 Moi University Muslim Student Association.</p>
-</footer>
+        <p>Follow us</p>
+        <form action="">
+            <h3>MUMSA Newsletter</h3>
+            <p>Sign up with your email address to receive news and updates.</p>
+            <div class="inputs">
+                <input type="text" placeholder="Email Address" required>
+                <input type="submit" value="SIGN UP">
+            </div>
+            <p class="note">We respect your privacy.</p>
+        </form>
+
+        <div id="reach-us">
+            <p><a href="facebook.com"><img src="images/facebook.png"></a></p>
+            <p><a href="twitter.com"><img src="images/twitter.png"></a></p>
+            <p><a href="https://youtube.com/@mumsamaincampus7241"><img src="images/youtube.png"></a></p>
+            <p><a href="mailto:mumsa.main@gmail.com"><img src="images/gmail.png"></a></p>
+        </div>
+        <p>Copywrite&copy;2023 Moi University Muslim Student Association.</p>
+    </footer>
 </body>
 </html>

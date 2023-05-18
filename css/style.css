@@ -26,56 +26,34 @@ section{
     text-align: center;
 }
 
-.about{
+.mid{
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 80vh;
-    overflow: hidden;
-    background-size: cover;
-}
-
-.about .col h1{
-    font-weight: 200;
-    font-size: 30px;
-}
-
-#col1{
-    padding: 0 120px;
-}
-
-.about .col p{
-    font-size: 10px;
-    font-weight: 600;
-    color: rgba(42, 124, 110);
-}
-
-#col1 button{
-    border-radius: 30px;
-    border: 1px solid rgb(42, 124, 110);
-    color: rgba(42, 124, 110);
-    font-size: 10px;
+    gap: 10px;
     padding: 10px;
-    width: 80px;
-    outline: none;
+    flex-wrap: wrap;
 }
 
-#announce{
-    padding-top: 20px;
-    padding-bottom: 200px;
-    height: 20vh;
+.mid div{
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+    position: relative;
+    overflow: hidden;
 }
 
-#announce h1{
-    font-weight: 300;
-    text-align: center;
+.mid div img{
+    height: 100%;
+    width: 100%;
+    filter: brightness(50%);
 }
 
-#announce p{
-    font-weight: 300;
-    text-align: center;
-} 
+.mid div h1{
+    position: absolute;
+    top: 30%;
+    color: #fff;
+}
 
 .float{
     position: fixed;
@@ -136,38 +114,21 @@ section{
         background-size: cover;
     }    
 
-    .mid .about{
-        display: block;
-        height: fit-content;
-        z-index: 1;
-        padding: 0;
+    .mid{
+        gap: 5px;
+        padding: 10px 5px;
+        padding-top: 3px;
+        flex-wrap: wrap;
     }
-
-    .col{
+    
+    .mid div{
         width: 100%;
     }
-
-    #col1{
-        padding: 5px 10px 40px 10px;
-        width: 98%;
-        overflow: hidden;
+    
+    .mid div img{
+        height: 100%;
+        width: 100%;
+        filter: brightness(50%);
     }
 
-    #col2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 99%;
-        height: 300px;
-        overflow: hidden;
-    }
-
-    #col2 img{
-        /* height: ; */
-        background-position: center;
-    }
-
-    #announce{
-        padding: 20px 0;
-    }
 }

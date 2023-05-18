@@ -1,12 +1,11 @@
 .header{
-    /* position: fixed; */
     width: 100%;
     background-color: #16a084f1;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: fit-content;
-    padding: 10px 60px;
+    padding: 10px;
     margin: 0;
     padding-bottom: 0;
 }
@@ -181,5 +180,32 @@
 
     .announce-container .events .event{
         width: 95%;
+    }
+
+    .event hr{
+        width: 98%;
+    }
+
+    .news h4{
+        padding: 5px 0;
+        font-size: 12px;
+    }
+    
+    .news p{
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .events .event{
+        padding-left: 10px;
+    }    
+
+    .events .event h2{
+        font-size: 14px;
+        margin: 0;
+    }
+    
+    .events .event p{
+        font-size: 12px;
     }
 }

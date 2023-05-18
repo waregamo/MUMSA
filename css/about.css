@@ -24,6 +24,7 @@ li a{
 .about-container{
     background-color: #16a084f1;
     padding-top: 20px;
+    overflow: hidden;
 }
 
 .about-nav{
@@ -73,6 +74,14 @@ li a{
     margin-bottom: 20px;
     text-align: center;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.m-v-h hr{
+    width: 50%;
+    border: none;
+    height: 1px;
+    background-color: rgb(42, 124, 110);
+    outline: none;
 }
 
 .content{
@@ -136,20 +145,24 @@ li a{
     background-color: #fff;
     position: absolute;
     bottom: 10px;
-    right: 10px;
-    padding: 0 10px;
-    border-radius: 0 10px 10px 10px;
+    width: 76.7%;
+    display: flex;
+    gap: 5px;
+    left: 25px;
+    height: fit-content;
+    padding: 5px 10px;
     cursor: pointer;
     transition: .5s;
 }
 
 .teams .member .info:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .teams .member .info p{
     font-size: 11px;
     font-weight: 500;
+    margin: 0;
 }
 
 .map{
@@ -183,7 +196,7 @@ li a{
 
     
     .content{
-        padding: 0 10px;
+        padding: 0;
         margin: 0;
         margin-bottom: 10px;
     }
@@ -210,6 +223,15 @@ li a{
         padding: 10px 5px;
         margin: 0;
         box-shadow: none;
+    }
+
+    .m-v-h p{
+        font-size: 12px;
+    }
+
+    .m-v-h h2{
+        font-size: 16px;
+        margin-bottom: 0;
     }
     
     .our-team{
