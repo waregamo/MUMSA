@@ -76,7 +76,7 @@ textarea{
     outline: none;
     border-radius: 4px;
     border: 1px solid rgb(148, 146, 146);
-    background-color: rgb(238, 238, 238);
+    background-color: #fff;
     margin-bottom: 10px;
     padding: 10px 20px;
 }
@@ -150,8 +150,8 @@ label{
         font-size: 14px;
         height: fit-content;
         border: none;
-        border-bottom: 1px solid rgb(148, 146, 146);
-        background-color: rgb(245, 243, 243);
+        border: 1px solid rgb(148, 146, 146);
+        background-color: #fff;
         outline: none;
         margin-bottom: 10px;
         width: 90%;
