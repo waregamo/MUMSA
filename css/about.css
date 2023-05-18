@@ -17,7 +17,7 @@ li a{
 
 #hamburger div{
     width: 40px;
-    height: 3px;
+    height: 2px;
     background-color: #fff;
 }
 
@@ -181,11 +181,14 @@ li a{
         color: #fff;
     }
 
+    .about-container{
+        padding-top: 5px;
+    }
+
     .about-nav{
-        margin: 0 10px;
-        border-radius: 5px 5px 0 0;
+        margin: 0;
+        border-radius: 0;
         height: 1cm;
-        /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); */
     }
 
     .about-nav .about-img{
@@ -193,19 +196,23 @@ li a{
     }
 
     .about-nav ul li a{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .m-v-h{
-        padding: 10px 30px;
-        margin-bottom: 10px;
+        padding: 10px 5px;
+        margin: 0;
         box-shadow: none;
     }
     
+    .our-team{
+        margin: 0;
+        padding: 10px 0;
+    }
+
     .teams{
-        gap: 10px;
-        padding: 0 10px;
-        background-color: rebeccapurple;
+        gap: 5px;
+        padding: 0 5px;
     }
     
     .teams .member{
@@ -217,11 +224,12 @@ li a{
         justify-content: center;
         align-items: center;
         position: relative;
+        background-color: red;
     }
     
     .teams .member img{
-        height: 250px;
-        width: 250px;
+        height: 270px;
+        width: 270px;
         border-radius: 4px;
     }
     
