@@ -211,13 +211,13 @@ li a{
     }
 
     .teams{
-        gap: 5px;
+        gap: 10px;
         padding: 0 5px;
     }
     
     .teams .member{
-        height: 300px;
-        width: 300px;
+        height: 250px;
+        width: 250px;
         overflow: hidden;
         display: flex;
         flex-direction: column;
