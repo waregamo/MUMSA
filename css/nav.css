@@ -270,7 +270,7 @@ footer #reach-us{
     .header .nav{
         position: fixed;
         flex-direction: column;
-        background-color: #ffffff;
+        background-color: #dee484;
         height: 100vh;
         width: 75vw;
         top: -15px;
@@ -349,5 +349,9 @@ footer #reach-us{
         height: .85cm;
         font-size: 12px;
         padding: 5px 10px;
+    }
+
+    .exed:first-child{
+        font-size: 20px;
     }
 }
