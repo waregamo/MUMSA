@@ -318,8 +318,8 @@ footer #reach-us{
         display: none;
     }
     .header .nav li .dropdown-list{
-        left: 10%;
-        top: 50px;
+        left: 5%;
+        top: 30px;
         height: fit-content;
         border: 1px solid rgb(42, 124, 110);
         border-radius: 0;
