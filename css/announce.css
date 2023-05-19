@@ -172,6 +172,7 @@
         border-radius: 0;
         width: 100%;
         box-shadow: none;
+        border-radius: 5px;
     }
 
     .news .img{
@@ -194,6 +195,7 @@
     .news p{
         padding: 0;
         font-size: 12px;
+        padding-bottom: 10px;
     }
 
     .events .event{
