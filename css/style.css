@@ -38,7 +38,7 @@ section{
     width: 32%;
     display: flex;
     justify-content: center;
-    align-items: centers;
+    /* align-items: center; */
     position: relative;
     overflow: hidden;
 }
@@ -56,12 +56,22 @@ section{
     height: 100%;
     width: 100%;
     filter: brightness(50%);
+    transition: .5s;
+}
+
+.mid div:hover img{
+    transform: scale(1.1);
 }
 
 .mid div h1{
     position: absolute;
     top: 30%;
     color: #fff;
+    transition: .5s;
+}
+
+.mid div:hover h1{
+    transform: scale(1.1);
 }
 
 .float{
