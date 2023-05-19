@@ -43,6 +43,15 @@ section{
     overflow: hidden;
 }
 
+.mid div a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+    position: relative;
+    overflow: hidden;
+}
+
 .mid div img{
     height: 100%;
     width: 100%;
