@@ -48,40 +48,7 @@
             <div class="line"></div>
             <div class="line"></div>
        </div>
-       <script>
-        document.getElementById("hamburger").onclick = () =>{
-          document.querySelector(".header ul").classList.toggle('shrinked');
-            const theNav = document.querySelector('.nav');
-            const parentDiv = document.querySelector('#hamburger');
-            // Toggle the hamburger icon
-            if (theNav.classList.contains('shrinked')) {
-
-                parentDiv.removeChild(parentDiv.firstChild)
-                parentDiv.classList.remove('exed');
-
-                for (let i = 1; i <= 3; i++) {
-                    const childDiv = document.createElement('div');
-                    childDiv.textContent = '    ';
-                    parentDiv.appendChild(childDiv);
-                }
-                parentDiv.style.background = 'transparent';
-
-            } else {
-                // Create a text node with the 'X' symbol
-                const crossSymbol = document.createTextNode('X');
-                parentDiv.classList.add('exed');
-                // Remove all existing child divs
-                while (parentDiv.firstChild) {
-                parentDiv.removeChild(parentDiv.firstChild);
-                }
-
-                // Add the 'X' symbol as the only child of the parent div
-                parentDiv.appendChild(crossSymbol);
-                parentDiv.style.background = 'red';
-                parentDiv.style.color = 'white';
-            }
-        }
-   </script>
+       <script src="app.js"></script>
    </div>
 
    <div class="body">
@@ -119,7 +86,7 @@
     
             <div id="reach-us">
                 <p><a href="https://www.facebook.com/Mumsa.Moi"><img src="images/facebook.png"></a></p>
-                <p><a href="twitter.com"><img src="images/twitter.png"></a></p>
+                <p><a href="thttps://twitter.com/mumsa_main"><img src="images/twitter.png"></a></p>
                 <p><a href="https://youtube.com/@mumsamaincampus7241"><img src="images/youtube.png"></a></p>
                 <p><a href="mailto:mumsa.main@gmail.com"><img src="images/gmail.png"></a></p>
             </div>
