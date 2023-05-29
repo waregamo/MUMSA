@@ -6,7 +6,7 @@ section{
 
 #BACKGROUND{
     position: absolute;
-    top: 0;
+    top: -40px;
     left: 0;
     filter: brightness(50%);
     width: 100%;
@@ -92,14 +92,39 @@ section{
         font-size: 25px;
         padding: 0 20px;
     }
-
     section{
-        height: fit-content;
+        overflow: hidden;
+        height: 85vh;
     }
-    #BACKGROUND{
-        height: 400px;
+    
+    #banner{
+        position: relative;
+        background-image: url(../images/muslimback.jpg);
         background-position: center;
         background-size: cover;
+        filter: brightness(50%);
+        z-index: -1;
+        height: 75vh;
+        
+    }
+    
+    .welcome{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10vh;
+        height: 80vh;
+        font-weight: 200;
+        font-size: 35px;
+        color: #fff;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+    }
+    #BACKGROUND{
+        display: none;
     }    
 
     .mid{
